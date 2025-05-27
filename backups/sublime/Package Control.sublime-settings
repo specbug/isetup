@@ -1,0 +1,33 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"CSS Format",
+		"CSV Record View",
+		"HTML-CSS-JS Prettify",
+		"HTML5",
+		"HTMLBeautify",
+		"Indent XML",
+		"IPython Notebook",
+		"JSON Stringify",
+		"LaTeXing",
+		"Markdown Extended",
+		"Markdown HTML Preview",
+		"Materialize",
+		"One Dark Material - Theme",
+		"Package Control",
+		"Pretty JSON",
+		"PyYapf Python Formatter",
+		"Racket",
+		"RemoveDuplicateLines",
+		"Scheme",
+		"sql-formatter",
+		"SqlBeautifier",
+		"SublimeLinter-xmllint",
+		"Theme - One Dark",
+		"YamlToJson",
+	],
+}

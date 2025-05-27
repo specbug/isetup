@@ -1,0 +1,112 @@
+{
+  "window.commandCenter": 1,
+  "files.autoSave": "afterDelay",
+  "editor.fontSize": 19,
+  "editor.lineHeight": 30,
+  "editor.fontFamily": "R Plex Mono",
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "cursor.cmdk.useThemedDiffBackground": true,
+  "editor.fontLigatures": true,
+  "editor.minimap.autohide": true,
+  "editor.minimap.enabled": true,
+  "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
+  "workbench.preferredHighContrastColorTheme": "One Dark Pro Darker",
+  "editor.cursorSurroundingLines": 15,
+  "editor.cursorStyle": "line",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "phase",
+  "terminal.integrated.fontFamily": "R Plex Mono",
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.lineHeight": 1.2,
+  "terminal.external.osxExec": "Warp.app",
+  "oneDarkPro.vivid": true,
+  "oneDarkPro.italic": true,
+  "oneDarkPro.editorTheme": "One Dark Pro Darker",
+  "python.languageServer": "Pylance",
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#22262C",
+    "sideBar.background": "#22262C",
+    "tab.activeBorder": "#61AFEF",
+    "tab.activeBackground": "#353A46",
+    "editorError.foreground": "#F44747",
+    "editorWarning.foreground": "#FF8C00",
+    "editorUnnecessaryCode.border": "#815125"
+  },
+  "editor.semanticTokenColorCustomizations": {
+    "[One Dark Pro Darker]": {
+      "rules": {
+        "module": "#ABB2BF",
+        "class": "#E5C07B",
+        "class.typeHint.builtin": "#2bbac5",
+        "class.builtin": "#2bbac5",
+        "property.declaration": "#E06C75",
+        "parameter": "#E06C75",
+        "selfParameter": "#C678DD",
+        "selfParameter.declaration": "#C678DD",
+        "variable": "#ABB2BF",
+        "variable.typeHint": "#E5C07B",
+        "*.decorator": "#61AFEF",
+        "*.decorator.builtin": "#61AFEF",
+        "property": "#ABB2BF"
+      }
+    }
+  },
+  "editor.tokenColorCustomizations": {
+    "[One Dark Pro Darker]": {
+      "textMateRules": [
+        {
+          "scope": "keyword.codetag.notation.python",
+          "settings": {
+            "foreground": "#FF8C00"
+          }
+        },
+        {
+          "scope": "keyword.control.import.python, storage.type.function.python, keyword.control.flow.python, keyword.operator.logical.python, storage.type.class.python",
+          "settings": {
+            "foreground": "#C678DD"
+          }
+        },
+        {
+          "scope": "string.quoted.docstring.multi.python, comment.line.number-sign.python, string.quoted.docstring.multi.python, punctuation.definition.comment.python",
+          "settings": {
+            "foreground": "#5C6370"
+          }
+        },
+        {
+          "scope": "string.quoted.single.python",
+          "settings": {
+            "foreground": "#98C379"
+          }
+        },
+        {
+          "scope": "punctuation.definition.arguments.begin.python, punctuation.definition.arguments.end.python, punctuation.definition.parameters.begin.python, punctuation.definition.parameters.end.python",
+          "settings": {
+            "foreground": "#ABB2BF"
+          }
+        }
+      ]
+    }
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "cursor.cpp.disabledLanguages": ["plaintext", "markdown", "scminput"],
+  "redhat.telemetry.enabled": true,
+  "update.releaseTrack": "prerelease",
+  "cursor.composer.shouldChimeAfterChatFinishes": true,
+  "gitlens.views.scm.grouped.views": {
+    "commits": true,
+    "branches": true,
+    "remotes": true,
+    "stashes": true,
+    "tags": true,
+    "worktrees": true,
+    "contributors": true,
+    "fileHistory": true,
+    "repositories": true,
+    "searchAndCompare": false,
+    "launchpad": false
+  }
+}
