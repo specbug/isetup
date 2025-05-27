@@ -1,0 +1,11 @@
+# Local configurations (machine-specific, not synced)
+local.sh
+*.local
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# OS files
+.DS_Store
